@@ -1,0 +1,4 @@
+read_verilog -sv -formal -overwrite {workspace}/.vscode-server/data/User/History/-332ff070/4s9u.v
+read_verilog -sv -formal -overwrite {workspace}/build/s27_tb.v
+design -reset-vlog; proc;
+write_json {workspace}/netlist/tb_top.json

@@ -1,0 +1,823 @@
+{
+  "creator": "Yosys 0.58+80 (git sha1 2613c1c0a, clang++ 13.0.0 -fPIC -O3)",
+  "modules": {
+    "s27.aig": {
+      "attributes": {
+        "cells_not_processed": "00000000000000000000000000000001",
+        "src": "s27_from_aig.v:3.1-77.10"
+      },
+      "ports": {
+        "_18_": {
+          "direction": "input",
+          "bits": [ 2 ]
+        },
+        "_19_": {
+          "direction": "input",
+          "bits": [ 3 ]
+        },
+        "_20_": {
+          "direction": "input",
+          "bits": [ 4 ]
+        },
+        "_21_": {
+          "direction": "input",
+          "bits": [ 5 ]
+        },
+        "_22_": {
+          "direction": "input",
+          "bits": [ 6 ]
+        },
+        "_26_": {
+          "direction": "output",
+          "bits": [ 7 ]
+        }
+      },
+      "cells": {
+        "$and$s27_from_aig.v:40$1": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "s27_from_aig.v:40.17-40.28"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 8 ],
+            "B": [ 9 ],
+            "Y": [ 10 ]
+          }
+        },
+        "$and$s27_from_aig.v:41$2": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "s27_from_aig.v:41.17-41.28"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 11 ],
+            "B": [ 12 ],
+            "Y": [ 13 ]
+          }
+        },
+        "$and$s27_from_aig.v:42$3": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "s27_from_aig.v:42.17-42.28"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 12 ],
+            "B": [ 14 ],
+            "Y": [ 15 ]
+          }
+        },
+        "$and$s27_from_aig.v:43$4": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "s27_from_aig.v:43.17-43.28"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 16 ],
+            "B": [ 17 ],
+            "Y": [ 18 ]
+          }
+        },
+        "$and$s27_from_aig.v:44$5": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "s27_from_aig.v:44.17-44.28"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 18 ],
+            "B": [ 19 ],
+            "Y": [ 20 ]
+          }
+        },
+        "$and$s27_from_aig.v:45$6": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "s27_from_aig.v:45.17-45.28"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 7 ],
+            "B": [ 5 ],
+            "Y": [ 21 ]
+          }
+        },
+        "$and$s27_from_aig.v:46$7": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "s27_from_aig.v:46.17-46.28"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 11 ],
+            "B": [ 22 ],
+            "Y": [ 23 ]
+          }
+        },
+        "$and$s27_from_aig.v:47$8": {
+          "hide_name": 1,
+          "type": "$and",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "B_SIGNED": "00000000000000000000000000000000",
+            "B_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "s27_from_aig.v:47.17-47.28"
+          },
+          "port_directions": {
+            "A": "input",
+            "B": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 24 ],
+            "B": [ 25 ],
+            "Y": [ 26 ]
+          }
+        },
+        "$not$s27_from_aig.v:66$9": {
+          "hide_name": 1,
+          "type": "$not",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "s27_from_aig.v:66.17-66.22"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 2 ],
+            "Y": [ 9 ]
+          }
+        },
+        "$not$s27_from_aig.v:67$10": {
+          "hide_name": 1,
+          "type": "$not",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "s27_from_aig.v:67.17-67.22"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 10 ],
+            "Y": [ 11 ]
+          }
+        },
+        "$not$s27_from_aig.v:68$11": {
+          "hide_name": 1,
+          "type": "$not",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "s27_from_aig.v:68.17-68.22"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 13 ],
+            "Y": [ 17 ]
+          }
+        },
+        "$not$s27_from_aig.v:69$12": {
+          "hide_name": 1,
+          "type": "$not",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "s27_from_aig.v:69.17-69.22"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 15 ],
+            "Y": [ 16 ]
+          }
+        },
+        "$not$s27_from_aig.v:70$13": {
+          "hide_name": 1,
+          "type": "$not",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "s27_from_aig.v:70.17-70.22"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 20 ],
+            "Y": [ 7 ]
+          }
+        },
+        "$not$s27_from_aig.v:71$14": {
+          "hide_name": 1,
+          "type": "$not",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "s27_from_aig.v:71.17-71.22"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 3 ],
+            "Y": [ 14 ]
+          }
+        },
+        "$not$s27_from_aig.v:72$15": {
+          "hide_name": 1,
+          "type": "$not",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "s27_from_aig.v:72.17-72.22"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 4 ],
+            "Y": [ 22 ]
+          }
+        },
+        "$not$s27_from_aig.v:73$16": {
+          "hide_name": 1,
+          "type": "$not",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "s27_from_aig.v:73.17-73.22"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 5 ],
+            "Y": [ 25 ]
+          }
+        },
+        "$not$s27_from_aig.v:74$17": {
+          "hide_name": 1,
+          "type": "$not",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "s27_from_aig.v:74.17-74.22"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 27 ],
+            "Y": [ 19 ]
+          }
+        },
+        "$not$s27_from_aig.v:75$18": {
+          "hide_name": 1,
+          "type": "$not",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "s27_from_aig.v:75.17-75.22"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 28 ],
+            "Y": [ 8 ]
+          }
+        },
+        "$not$s27_from_aig.v:76$19": {
+          "hide_name": 1,
+          "type": "$not",
+          "parameters": {
+            "A_SIGNED": "00000000000000000000000000000000",
+            "A_WIDTH": "00000000000000000000000000000001",
+            "Y_WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "src": "s27_from_aig.v:76.17-76.22"
+          },
+          "port_directions": {
+            "A": "input",
+            "Y": "output"
+          },
+          "connections": {
+            "A": [ 26 ],
+            "Y": [ 12 ]
+          }
+        },
+        "_35_": {
+          "hide_name": 0,
+          "type": "\\$ff",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "s27_from_aig.v:50.5-53.4"
+          },
+          "connections": {
+            "D": [ 20 ],
+            "Q": [ 24 ]
+          }
+        },
+        "_36_": {
+          "hide_name": 0,
+          "type": "\\$ff",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "s27_from_aig.v:56.5-59.4"
+          },
+          "connections": {
+            "D": [ 21 ],
+            "Q": [ 27 ]
+          }
+        },
+        "_37_": {
+          "hide_name": 0,
+          "type": "\\$ff",
+          "parameters": {
+            "WIDTH": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "s27_from_aig.v:62.5-65.4"
+          },
+          "connections": {
+            "D": [ 23 ],
+            "Q": [ 28 ]
+          }
+        }
+      },
+      "netnames": {
+        "$and$s27_from_aig.v:40$1_Y": {
+          "hide_name": 1,
+          "bits": [ 10 ],
+          "attributes": {
+            "src": "s27_from_aig.v:40.17-40.28"
+          }
+        },
+        "$and$s27_from_aig.v:41$2_Y": {
+          "hide_name": 1,
+          "bits": [ 13 ],
+          "attributes": {
+            "src": "s27_from_aig.v:41.17-41.28"
+          }
+        },
+        "$and$s27_from_aig.v:42$3_Y": {
+          "hide_name": 1,
+          "bits": [ 15 ],
+          "attributes": {
+            "src": "s27_from_aig.v:42.17-42.28"
+          }
+        },
+        "$and$s27_from_aig.v:43$4_Y": {
+          "hide_name": 1,
+          "bits": [ 18 ],
+          "attributes": {
+            "src": "s27_from_aig.v:43.17-43.28"
+          }
+        },
+        "$and$s27_from_aig.v:44$5_Y": {
+          "hide_name": 1,
+          "bits": [ 20 ],
+          "attributes": {
+            "src": "s27_from_aig.v:44.17-44.28"
+          }
+        },
+        "$and$s27_from_aig.v:45$6_Y": {
+          "hide_name": 1,
+          "bits": [ 21 ],
+          "attributes": {
+            "src": "s27_from_aig.v:45.17-45.28"
+          }
+        },
+        "$and$s27_from_aig.v:46$7_Y": {
+          "hide_name": 1,
+          "bits": [ 23 ],
+          "attributes": {
+            "src": "s27_from_aig.v:46.17-46.28"
+          }
+        },
+        "$and$s27_from_aig.v:47$8_Y": {
+          "hide_name": 1,
+          "bits": [ 26 ],
+          "attributes": {
+            "src": "s27_from_aig.v:47.17-47.28"
+          }
+        },
+        "$not$s27_from_aig.v:66$9_Y": {
+          "hide_name": 1,
+          "bits": [ 9 ],
+          "attributes": {
+            "src": "s27_from_aig.v:66.17-66.22"
+          }
+        },
+        "$not$s27_from_aig.v:67$10_Y": {
+          "hide_name": 1,
+          "bits": [ 11 ],
+          "attributes": {
+            "src": "s27_from_aig.v:67.17-67.22"
+          }
+        },
+        "$not$s27_from_aig.v:68$11_Y": {
+          "hide_name": 1,
+          "bits": [ 17 ],
+          "attributes": {
+            "src": "s27_from_aig.v:68.17-68.22"
+          }
+        },
+        "$not$s27_from_aig.v:69$12_Y": {
+          "hide_name": 1,
+          "bits": [ 16 ],
+          "attributes": {
+            "src": "s27_from_aig.v:69.17-69.22"
+          }
+        },
+        "$not$s27_from_aig.v:70$13_Y": {
+          "hide_name": 1,
+          "bits": [ 7 ],
+          "attributes": {
+            "src": "s27_from_aig.v:70.17-70.22"
+          }
+        },
+        "$not$s27_from_aig.v:71$14_Y": {
+          "hide_name": 1,
+          "bits": [ 14 ],
+          "attributes": {
+            "src": "s27_from_aig.v:71.17-71.22"
+          }
+        },
+        "$not$s27_from_aig.v:72$15_Y": {
+          "hide_name": 1,
+          "bits": [ 22 ],
+          "attributes": {
+            "src": "s27_from_aig.v:72.17-72.22"
+          }
+        },
+        "$not$s27_from_aig.v:73$16_Y": {
+          "hide_name": 1,
+          "bits": [ 25 ],
+          "attributes": {
+            "src": "s27_from_aig.v:73.17-73.22"
+          }
+        },
+        "$not$s27_from_aig.v:74$17_Y": {
+          "hide_name": 1,
+          "bits": [ 19 ],
+          "attributes": {
+            "src": "s27_from_aig.v:74.17-74.22"
+          }
+        },
+        "$not$s27_from_aig.v:75$18_Y": {
+          "hide_name": 1,
+          "bits": [ 8 ],
+          "attributes": {
+            "src": "s27_from_aig.v:75.17-75.22"
+          }
+        },
+        "$not$s27_from_aig.v:76$19_Y": {
+          "hide_name": 1,
+          "bits": [ 12 ],
+          "attributes": {
+            "src": "s27_from_aig.v:76.17-76.22"
+          }
+        },
+        "_00_": {
+          "hide_name": 0,
+          "bits": [ 10 ],
+          "attributes": {
+            "src": "s27_from_aig.v:16.8-16.12"
+          }
+        },
+        "_01_": {
+          "hide_name": 0,
+          "bits": [ 11 ],
+          "attributes": {
+            "src": "s27_from_aig.v:17.8-17.12"
+          }
+        },
+        "_02_": {
+          "hide_name": 0,
+          "bits": [ 13 ],
+          "attributes": {
+            "src": "s27_from_aig.v:18.8-18.12"
+          }
+        },
+        "_03_": {
+          "hide_name": 0,
+          "bits": [ 17 ],
+          "attributes": {
+            "src": "s27_from_aig.v:19.8-19.12"
+          }
+        },
+        "_04_": {
+          "hide_name": 0,
+          "bits": [ 15 ],
+          "attributes": {
+            "src": "s27_from_aig.v:20.8-20.12"
+          }
+        },
+        "_05_": {
+          "hide_name": 0,
+          "bits": [ 16 ],
+          "attributes": {
+            "src": "s27_from_aig.v:21.8-21.12"
+          }
+        },
+        "_06_": {
+          "hide_name": 0,
+          "bits": [ 18 ],
+          "attributes": {
+            "src": "s27_from_aig.v:22.8-22.12"
+          }
+        },
+        "_07_": {
+          "hide_name": 0,
+          "bits": [ 20 ],
+          "attributes": {
+            "src": "s27_from_aig.v:23.8-23.12"
+          }
+        },
+        "_08_": {
+          "hide_name": 0,
+          "bits": [ 21 ],
+          "attributes": {
+            "src": "s27_from_aig.v:24.8-24.12"
+          }
+        },
+        "_09_": {
+          "hide_name": 0,
+          "bits": [ 23 ],
+          "attributes": {
+            "src": "s27_from_aig.v:25.8-25.12"
+          }
+        },
+        "_10_": {
+          "hide_name": 0,
+          "bits": [ 9 ],
+          "attributes": {
+            "src": "s27_from_aig.v:26.8-26.12"
+          }
+        },
+        "_11_": {
+          "hide_name": 0,
+          "bits": [ 14 ],
+          "attributes": {
+            "src": "s27_from_aig.v:27.8-27.12"
+          }
+        },
+        "_12_": {
+          "hide_name": 0,
+          "bits": [ 22 ],
+          "attributes": {
+            "src": "s27_from_aig.v:28.8-28.12"
+          }
+        },
+        "_13_": {
+          "hide_name": 0,
+          "bits": [ 25 ],
+          "attributes": {
+            "src": "s27_from_aig.v:29.8-29.12"
+          }
+        },
+        "_14_": {
+          "hide_name": 0,
+          "bits": [ 19 ],
+          "attributes": {
+            "src": "s27_from_aig.v:30.8-30.12"
+          }
+        },
+        "_15_": {
+          "hide_name": 0,
+          "bits": [ 8 ],
+          "attributes": {
+            "src": "s27_from_aig.v:31.8-31.12"
+          }
+        },
+        "_16_": {
+          "hide_name": 0,
+          "bits": [ 26 ],
+          "attributes": {
+            "src": "s27_from_aig.v:32.8-32.12"
+          }
+        },
+        "_17_": {
+          "hide_name": 0,
+          "bits": [ 12 ],
+          "attributes": {
+            "src": "s27_from_aig.v:33.8-33.12"
+          }
+        },
+        "_18_": {
+          "hide_name": 0,
+          "bits": [ 2 ],
+          "attributes": {
+            "src": "s27_from_aig.v:4.9-4.13"
+          }
+        },
+        "_19_": {
+          "hide_name": 0,
+          "bits": [ 3 ],
+          "attributes": {
+            "src": "s27_from_aig.v:6.9-6.13"
+          }
+        },
+        "_20_": {
+          "hide_name": 0,
+          "bits": [ 4 ],
+          "attributes": {
+            "src": "s27_from_aig.v:8.9-8.13"
+          }
+        },
+        "_21_": {
+          "hide_name": 0,
+          "bits": [ 5 ],
+          "attributes": {
+            "src": "s27_from_aig.v:10.9-10.13"
+          }
+        },
+        "_22_": {
+          "hide_name": 0,
+          "bits": [ 6 ],
+          "attributes": {
+            "src": "s27_from_aig.v:12.9-12.13"
+          }
+        },
+        "_23_": {
+          "hide_name": 0,
+          "bits": [ 24 ],
+          "attributes": {
+            "init": "0",
+            "src": "s27_from_aig.v:35.8-35.12"
+          }
+        },
+        "_24_": {
+          "hide_name": 0,
+          "bits": [ 27 ],
+          "attributes": {
+            "init": "0",
+            "src": "s27_from_aig.v:37.8-37.12"
+          }
+        },
+        "_25_": {
+          "hide_name": 0,
+          "bits": [ 28 ],
+          "attributes": {
+            "init": "0",
+            "src": "s27_from_aig.v:39.8-39.12"
+          }
+        },
+        "_26_": {
+          "hide_name": 0,
+          "bits": [ 7 ],
+          "attributes": {
+            "src": "s27_from_aig.v:14.10-14.14"
+          }
+        }
+      }
+    }
+  }
+}

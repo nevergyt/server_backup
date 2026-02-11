@@ -1,0 +1,45 @@
+digraph {
+rankdir=BT;
+0 [label="0",shape=box,style=filled,fillcolor=snow2]
+1 [label="1",shape=triangle,style=filled,fillcolor=snow2]
+2 [label="2",shape=triangle,style=filled,fillcolor=snow2]
+3 [label="3",shape=triangle,style=filled,fillcolor=snow2]
+4 [label="4",shape=triangle,style=filled,fillcolor=snow2]
+5 [label="5",shape=triangle,style=filled,fillcolor=snow2]
+6 [label="6",shape=ellipse,style=filled,fillcolor=white]
+7 [label="7",shape=ellipse,style=filled,fillcolor=white]
+8 [label="8",shape=ellipse,style=filled,fillcolor=white]
+9 [label="9",shape=ellipse,style=filled,fillcolor=white]
+10 [label="10",shape=ellipse,style=filled,fillcolor=white]
+11 [label="11",shape=ellipse,style=filled,fillcolor=white]
+12 [label="12",shape=ellipse,style=filled,fillcolor=white]
+13 [label="13",shape=ellipse,style=filled,fillcolor=white]
+14 [label="14",shape=ellipse,style=filled,fillcolor=white]
+15 [label="15",shape=ellipse,style=filled,fillcolor=white]
+16 [label="16",shape=ellipse,style=filled,fillcolor=white]
+po0 [shape=invtriangle,style=filled,fillcolor=snow2]
+2 -> 9 [style=dashed]
+7 -> 9 [style=solid]
+5 -> 10 [style=dashed]
+9 -> 10 [style=dashed]
+3 -> 11 [style=dashed]
+8 -> 11 [style=dashed]
+9 -> 12 [style=dashed]
+11 -> 12 [style=dashed]
+10 -> 13 [style=dashed]
+12 -> 13 [style=dashed]
+6 -> 14 [style=dashed]
+13 -> 14 [style=solid]
+2 -> 15 [style=solid]
+14 -> 15 [style=dashed]
+4 -> 16 [style=dashed]
+11 -> 16 [style=dashed]
+14 -> po0 [style=dashed]
+{rank = same; 0; 1; 2; 3; 4; 5; 15; 16; }
+{rank = same; 6; 7; 8; }
+{rank = same; 9; 11; }
+{rank = same; 10; 12; }
+{rank = same; 13; }
+{rank = same; 14; }
+{rank = same; po0; }
+}

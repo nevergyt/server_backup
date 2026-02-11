@@ -1,0 +1,187 @@
+$date
+	Wed Nov 12 19:24:26 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module s27_tb $end
+$var wire 1 ! G17 $end
+$var reg 1 " CK $end
+$var reg 1 # G0 $end
+$var reg 1 $ G1 $end
+$var reg 1 % G2 $end
+$var reg 1 & G3 $end
+$scope module uut $end
+$var wire 1 " CK $end
+$var wire 1 # G0 $end
+$var wire 1 $ G1 $end
+$var wire 1 ' G10 $end
+$var wire 1 ( G11 $end
+$var wire 1 ) G12 $end
+$var wire 1 * G13 $end
+$var wire 1 + G14 $end
+$var wire 1 , G15 $end
+$var wire 1 - G16 $end
+$var wire 1 ! G17 $end
+$var wire 1 % G2 $end
+$var wire 1 & G3 $end
+$var wire 1 . G8 $end
+$var wire 1 / G9 $end
+$var wire 1 0 G7 $end
+$var wire 1 1 G6 $end
+$var wire 1 2 G5 $end
+$scope module DFF_0 $end
+$var wire 1 " CK $end
+$var wire 1 ' D $end
+$var reg 1 2 Q $end
+$upscope $end
+$scope module DFF_1 $end
+$var wire 1 " CK $end
+$var wire 1 ( D $end
+$var reg 1 1 Q $end
+$upscope $end
+$scope module DFF_2 $end
+$var wire 1 " CK $end
+$var wire 1 * D $end
+$var reg 1 0 Q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x2
+x1
+x0
+x/
+x.
+x-
+x,
+1+
+x*
+x)
+x(
+0'
+0&
+0%
+0$
+0#
+0"
+x!
+$end
+#10000
+02
+1"
+#15000
+1!
+0(
+1/
+0-
+0.
+1'
+0+
+1#
+#20000
+0"
+#30000
+01
+12
+1"
+#40000
+0"
+#50000
+1"
+#55000
+1*
+0,
+0'
+0)
+1+
+1$
+0#
+#60000
+0"
+#70000
+10
+02
+1"
+#80000
+0"
+#90000
+1"
+#95000
+0*
+1%
+0$
+#100000
+0"
+#110000
+1,
+1)
+00
+1"
+#120000
+0"
+#130000
+1"
+#135000
+0!
+1(
+0/
+1-
+1&
+0%
+#140000
+0"
+#150000
+1.
+11
+1"
+#160000
+0"
+#170000
+1"
+#175000
+1'
+1!
+0(
+1/
+1*
+0,
+0.
+0)
+0+
+1$
+1#
+#180000
+0"
+#190000
+10
+01
+12
+1"
+#200000
+0"
+#210000
+1"
+#215000
+0-
+0*
+0&
+1%
+0$
+#220000
+0"
+#230000
+1,
+1)
+00
+1"
+#240000
+0"
+#250000
+1"
+#255000
